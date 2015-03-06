@@ -1,0 +1,52 @@
+<Sequence-Diagram id="1" name="se">
+	<objects>
+		<ClassObject id="1234" name="controller" type="Actor/Collection/ArrayList" pattern-name="pattern name">
+		</ClassObject>
+		<ClassObject id="43211" name="user2" type="Actor/Collection/ArrayList" pattern-name="pattern name">
+		</ClassObject>
+		<ClassObject id="43212" name="user3" type="Actor/Collection/ArrayList" pattern-name="pattern name">
+		</ClassObject>
+		<ClassObject id="43213" name="user4" type="Actor/Collection/ArrayList" pattern-name="pattern name">
+		</ClassObject>
+		<ClassObject id="43214" name="user5" type="Actor/Collection/ArrayList" pattern-name="pattern name">
+		</ClassObject>
+	</objects>
+	<Messages>
+
+		<Message gardCondition="gardCondition" name="setName" kind="call">
+			<param-list>
+				<param>
+					<param-name>name</param-name>
+					<param-type>String</param-type>
+				</param>
+			</param-list>
+			<Return-type></Return-type>
+			<Source>1234</Source>
+			<Destination>43213</Destination>
+		</Message>
+		<Message gardCondition="gardCondition" name="setVisible" kind="call">
+			<param-list>
+				<param>
+					<param-name>visibles</param-name>
+					<param-type>boolean</param-type>
+				</param>
+			</param-list>
+			<Return-type></Return-type>
+			<Source>1234</Source>
+			<Destination>43213</Destination>
+		</Message>
+		<Message gardCondition="gardCondition" name="getName" kind="call">
+			<param-list>
+			</param-list>
+			<Return-type>String</Return-type>
+			<Source>1234</Source>
+			<Destination>43213</Destination>
+		</Message>
+		<Message gardCondition="gardCondition" name="isVisible" kind="call">
+			<Return-type>boolean</Return-type>
+			<Source>1234</Source>
+			<Destination>43212</Destination>
+		</Message>
+		
+	</Messages>
+</Sequence-Diagram>

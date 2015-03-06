@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<classdiagram name="Design Class Diagram">
+	<class name="controltry" type="Concrete" />
+	<class name="user2" type="Concrete" />
+	<class name="user3" type="Concrete">
+		<attribute>
+			<type>boolean</type>
+			<name>visible</name>
+		</attribute>
+		<method name="isVisible" returntype="boolean">
+			<parameter>
+				<type>String</type>
+				<name>param1</name>
+			</parameter>
+		</method>
+	</class>
+	<class name="user4" type="Concrete">
+		<attribute>
+			<type>String</type>
+			<name>name</name>
+		</attribute>
+		<attribute>
+			<type>boolean</type>
+			<name>visible</name>
+		</attribute>
+		<method name="setName" returntype="">
+			<parameter>
+				<type>String</type>
+				<name>param1</name>
+			</parameter>
+		</method>
+		<method name="setVisible" returntype="">
+			<parameter>
+				<type>String</type>
+				<name>param1</name>
+			</parameter>
+		</method>
+		<method name="getName" returntype="String">
+			<parameter>
+				<type>String</type>
+				<name>param1</name>
+			</parameter>
+		</method>
+	</class>
+	<class name="user5" type="Concrete" />
+</classdiagram>
